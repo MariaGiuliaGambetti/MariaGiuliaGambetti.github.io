@@ -1,140 +1,4 @@
 <html>
-
-<style type="text/css">
-			 #corpo-centrale
-			 {
-    			
-					width: 1300;
-    			height: auto;
-					margin:auto;
-    			color: black;
-					font-family:Courier;
-    		}
-			 
-			 
-			 h1
-			 {
-				color: black;
-			 }
-			 #Menu
-        	{
-					top: 0em;
-        	}
-        
-        		#Menu > ul > li
-        		{
-        			float: left;
-        		}
-        
-        			#Menu > ul > li > a,
-        			#Menu > ul > li > span
-        			{
-        				display: block;
-        				padding: 0.1em 1em;
-        				text-decoration: none;
-        				font-size: 1em;
-								color: black;
-        			}
- 
-        			 #Menu li
-                {
-                  	padding: 0.1em 1em;
-                 		border-radius: 15px;
-										border: 1px solid black;
-										display: block;
-                    text-decoration: none;
-										background-color: white;
-        						width:75px;
-                }
-								
-								#info
-								{
-								 position: relative;
-								 padding: 0.1em 1em;
-                 border-radius: 15px;
-								 border: 1px solid black;
-								 width: 550px;
-								}
-								#studi
-								{
-								 padding: 0.1em 1em;
-                 border-radius: 15px;
-								 border: 1px solid black;
-								 width: 550px;
-								}
-								
-								#Gallery 
-        				{
-								 		text-align:center;
-                }
-        				
-        				#Gallery header
-        				{
-        						padding: 0.5em 1em;
-										color:black;
-										font-size: 20px;
-										letter-spacing: 1px;
-                }
-								
-								#Gallery li
-								{
-    								 margin-left:0.2em;
-    								 text-decoration: none;
-										 display: block;
-										 float: left;
-								 
-								}
-								
-								.popup{
-                			visibility: hidden;
-                			/*width: 1300px;*/
-                			background-color: #ffffff;
-                			border-radius: 6px;
-											position: absolute;
-                			z-index: 1; /* foreground*/
-											left: 50%;
-                			margin-left: -280; /*-651px;*/
-											bottom: 50%;
-											margin-bottom: -650px;
-                			line-height: 1.3em;
-									
-                		}
-																		
-								
-								div#Video header
-        				{
-        						padding: 0.5em 1em;
-        						position:center;
-										color:black;
-        						position:center;
-										font-size: 20px;
-										letter-spacing: 1px;
-                }
-								
-								
-								
-								#copyright
-              	{
-              		padding: 1.5em 0em;
-									position: relative;
-              		text-align: center;
-									background: #666666;
-              		color: white;
-              	}
-              	
-              	#copyright a
-              	{
-              		color: white;
-              	}
-								
-								#copyright img:hover
-								{
-								 background-color: #ffffff;
-								 border-radius: 25px;
-								}
-								
-								
-</style>
   <head>
 	<script type="text/javascript" language="javascript">
     function visualizza(id){
@@ -146,10 +10,7 @@
         }
       }
     }
-			
   </script>
-	
-	
 	<script>
     	var popupList=["foto1Popup", "foto2Popup", "foto3Popup", "foto4Popup", "foto5Popup", "foto6Popup", "foto7Popup", "foto11Popup", "foto12Popup", "foto13Popup", "foto14Popup", "foto15Popup", "foto16Popup", "foto17Popup"];
     	for(var i = 0; i < popupList.length; i++)
@@ -171,14 +32,16 @@
     	}
   </script>
 	<br>
-				
+	
+	<link rel="stylesheet" href="Style.css" />			
 
   </head>
 		
   <body>
 	<div id="corpo-centrale">			
-				<h1>Maria Giulia Gambetti</h1>
-        <!--Immagine sfondo-->
+			<h1>Maria Giulia Gambetti</h1>
+        
+		<!--Immagine sfondo-->
         <div>
         <center><img src="immagini/sfondo.jpg" width="1300"></center>
         <br>
@@ -186,152 +49,204 @@
         </div>
         <br>
 				
-				<!-- Description -->
+		<!-- Description -->
         <div id="Description" style="float:left; font-family: Courier; width: 1050; text-align: justify;" class="box-fixed" >
             <p><b>Ciao sono Maria Giulia,</b><br> una ragazza di 18 anni. Sono nata in un paesino della romagna. Ho deciso di intraprendere questo nuovo viaggio all'inteno del web.
-						<br>Sono diversi anni che mi diverto a seguire pagine di fashion blogger e persone che hanno una rilevata importanza nel campo della moda, del design e della fotografia.
-						<br>Durante l'ultimo anno delle superiori ho scoperto il web design. Una vasta aria dell'informatica che mi ha attirata molto.
-						<br> Ho deciso di provare a cimentarmi in questo nuovo ambiente anche io. Una mia grande passione è sempre stata la cura dell'aspetto esteriore, di ogni cosa, dall'aspetto fisico, alla mia stanza, a tutto ciò che prevede un'attenzione particolare all'estetica.
-						<br> Da grande vorrei diventare una web designer. Mi attira molto proprio perchè è il mix perfetto tra innovazione, design ed informatica.
-				</p></div>     
-				<div id="MiaFoto"><br><img src="immagini/MiaFoto.jpeg" style="width:220; margin-left:1.5em;"></div>
-				<div style="clear:both;"></div>
+				<br>Sono diversi anni che mi diverto a seguire pagine di fashion blogger e persone che hanno una rilevata importanza nel campo della moda, del design e della fotografia.
+				<br>Durante l'ultimo anno delle superiori ho scoperto il web design. Una vasta aria dell'informatica che mi ha attirata molto.
+				<br> Ho deciso di provare a cimentarmi in questo nuovo ambiente anche io. Una mia grande passione è sempre stata la cura dell'aspetto esteriore, di ogni cosa, dall'aspetto fisico, alla mia stanza, a tutto ciò che prevede un'attenzione particolare all'estetica.
+				<br> Il web design mi attira molto proprio perchè è il mix perfetto tra innovazione, design ed informatica.
+			</p>
+		</div>     
+		<div id="MiaFoto"><br><img src="immagini/MiaFoto.jpeg" style="width:220; margin-left:1.5em;"></div>
+		<div style="clear:both;"></div>
 
-				<!-- Menu -->
+		<!-- Menu -->
         <div id="Menu">
           <ul>
             <li class="active" style="float: left; margin-left:-2.5em;"><a href="#" onclick="visualizza('info'); return false">Info</a></li>
             <li style="float: right;"><a href="#" onclick="visualizza('studi'); return false">Studi</a></li>
           </ul>
         </div>
-        <br>
-				<br>
-				<div id="info" style="display:none; float:left;">
-				Sono nata a Faenza (RA) il 4 novembre 1998. Vivo a Bagnara di Romagna. Ho due sorelle, Michela e Lorenza. Ho un cagnolino che si chiama Pippo, preso a novembre del 2016.
-				<br> Ho iniziato a danzare all'età di 6 anni e ho continuato per 11 anni, ho interrotto per motivi di studio.
-				<br> Mi sono sempre divertita a disegnare.</div>
-				<div id="studi" style="display:none; float:right;">
-				Ho frequentato le elementari e le medie San Francesco di Bagnara.
-				<br> In terza media ho seguito un corso di Inglese con la British a Lugo.
-				<br> In prima superiore mi sono iscritta all'istituto tecnico "Paolini" di Imola, ed in seconda superiore ho scelto il ramo di studi: sistemi informativi aziendali (SIA).</div>
-        <div style="clear:both;"></div>
-				<br>
+        
+		<br>
+		<br>
+		
+		<div id="info" style="display:none; float:left;">
+			Sono nata a Faenza (RA) il 4 novembre 1998. Vivo a Bagnara di Romagna. Ho due sorelle, Michela e Lorenza. Ho un cagnolino che si chiama Pippo, preso a novembre del 2016.
+			<br> Ho iniziato a danzare all'età di 6 anni e ho continuato per 11 anni, ho interrotto per motivi di studio.
+			<br> Mi sono sempre divertita a disegnare.
+		</div>
+		
+		<div id="studi" style="display:none; float:right;">
+			Ho frequentato le elementari e le medie San Francesco di Bagnara.
+			<br> In terza media ho seguito un corso di Inglese con la British a Lugo.
+			<br> In prima superiore mi sono iscritta all'istituto tecnico "Paolini" di Imola, ed in seconda superiore ho scelto il ramo di studi: sistemi informativi aziendali (SIA).
+		</div>
+		<div style="clear:both;"></div>
+		<br>
+		<hr align='center' size='3' width='1300' color='#cccccc' border-radius='3'/>
+		
+		<!-- Box -->
+		<div id="Box">
+      <div class="contenitore">
+      		 <div class="box">
+              		 <div class="fronte">
+          				 			<h3>Prova</h3>
+          				 </div>
+      					 <div class="retro"><h3>Ciao</h3></div>
+      		 </div>
+      </div>
+			<div class="contenitore">
+      		 <div class="box">
+              		 <div class="fronte">
+          				 			<h3>Prova</h3>
+          				 </div>
+      					 <div class="retro"><h3>Ciao</h3></div>
+      		 </div>
+      </div>
+			<div class="contenitore">
+      		 <div class="box">
+              		 <div class="fronte">
+          				 			<h3>Prova</h3>
+          				 </div>
+      					 <div class="retro"><h3>Ciao</h3></div>
+      		 </div>
+      </div>
+			<div class="contenitore">
+      		 <div class="box">
+              		 <div class="fronte">
+          				 			<h3>Prova</h3>
+          				 </div>
+      					 <div class="retro"><h3>Ciao</h3></div>
+      		 </div>
+      </div>		 
+		<div style="clear:both;"></div>
+		</div>
+		<!--	
         <hr align='center' size='3' width='1300' color='#cccccc' border-radius='3'/>
-				<br>Altro...<br><br>
-        <hr align='center' size='3' width='1300' color='#cccccc' border-radius='3'/>
-				<br>
-				<!-- Gallery -->
-				<div id="Gallery" style="float: left">
-						<header><b>Immagini</b></header>
-						09 marzo 2017
-						<br><br>
-  						<ul>
-  							<li><img src="immagini/1.jpeg" width="100" onclick="showPopup('foto1Popup')">
-								<span class="popup" id="foto1Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto1Popup')"><img src="immagini/1.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/2.jpeg" width="100"onclick="showPopup('foto2Popup')">
-								<span class="popup" id="foto2Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto2Popup')"><img src="immagini/2.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/3.jpeg" width="100"onclick="showPopup('foto3Popup')">
-								<span class="popup" id="foto3Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto3Popup')"><img src="immagini/3.jpeg" width="600"></span>          				
-        				</span></li>
-                
-								<li><img src="immagini/4.jpeg" width="100"onclick="showPopup('foto4Popup')">
-								<span class="popup" id="foto4Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto4Popup')"><img src="immagini/4.jpeg" width="600"></span>
-        				</span></li>
-  							
-								<li><img src="immagini/5.jpeg" width="100"onclick="showPopup('foto5Popup')">
-								<span class="popup" id="foto5Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto5Popup')"><img src="immagini/5.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/6.jpeg" width="100"onclick="showPopup('foto6Popup')">
-								<span class="popup" id="foto6Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto6Popup')"><img src="immagini/6.jpeg" width="600"></span>          				
-        				</span></li>
-                
-								<li><img src="immagini/7.jpeg" width="100"onclick="showPopup('foto7Popup')">
-								<span class="popup" id="foto7Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto7Popup')"><img src="immagini/7.jpeg" width="600"></span>
-        				</span></li>
-  						
-							</ul>
-							<div style="clear:both;"></div>
-  						<br>
-  						21 maggio 2017
-  						<br><br>
-  						
-  						<ul>
-  							<li><img src="immagini/11.jpeg" width="100" onclick="showPopup('foto11Popup')">
-								<span class="popup" id="foto11Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto11Popup')"><img src="immagini/11.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/12.jpeg" width="100"onclick="showPopup('foto12Popup')">
-								<span class="popup" id="foto12Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto12Popup')"><img src="immagini/12.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/13.jpeg" width="100"onclick="showPopup('foto13Popup')">
-								<span class="popup" id="foto13Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto13Popup')"><img src="immagini/13.jpeg" width="600"></span>          				
-        				</span></li>
-                
-								<li><img src="immagini/14.jpeg" width="100"onclick="showPopup('foto14Popup')">
-								<span class="popup" id="foto14Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto14Popup')"><img src="immagini/14.jpeg" width="600"></span>
-        				</span></li>
-  							
-								<li><img src="immagini/15.jpeg" width="100"onclick="showPopup('foto15Popup')">
-								<span class="popup" id="foto15Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto15Popup')"><img src="immagini/15.jpeg" width="600"></span>          				
-        				</span></li>
-  							
-								<li><img src="immagini/16.jpeg" width="100"onclick="showPopup('foto16Popup')">
-								<span class="popup" id="foto16Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto16Popup')"><img src="immagini/16.jpeg" width="600"></span>          				
-        				</span></li>
-                
-								<li><img src="immagini/17.jpeg" width="100"onclick="showPopup('foto17Popup')">
-								<span class="popup" id="foto17Popup" style="visibility:hidden; ">
-  								<span class="closePopup" onclick="closePopup('foto17Popup')"><img src="immagini/17.jpeg" width="600"></span>
-        				</span></li>
-  						
-							</ul>
-							<div style="clear:both;"></div>
-  						<br>
-        </div>
+		<br>
+		
+		 Gallery 
+		<div id="Gallery" style="float: left">
+			<header><b>Immagini</b></header>
+			09 marzo 2017
+			<br><br>
+			<ul>
+				<li><img src="immagini/1.jpeg" width="100" onclick="showPopup('foto1Popup')">
+					<span class="popup" id="foto1Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto1Popup')"><img src="immagini/1.jpeg" width="600"></span>          				
+					</span>
+				</li>
 				
+				<li><img src="immagini/2.jpeg" width="100"onclick="showPopup('foto2Popup')">
+					<span class="popup" id="foto2Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto2Popup')"><img src="immagini/2.jpeg" width="600"></span>          				
+					</span>
+				</li>
 				
-				<!-- Video -->
-				<div id="Video" style="float: left; margin-left:4em;">
-				<center><header><b>Video</b></header>
-				<video width="470" controls>
-    		<source src="Video/mePippo.mp4" type="video/mp4">
-				</video>
+				<li><img src="immagini/3.jpeg" width="100"onclick="showPopup('foto3Popup')">
+					<span class="popup" id="foto3Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto3Popup')"><img src="immagini/3.jpeg" width="600"></span>          				
+					</span>
+				</li>
+	
+				<li><img src="immagini/4.jpeg" width="100"onclick="showPopup('foto4Popup')">
+					<span class="popup" id="foto4Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto4Popup')"><img src="immagini/4.jpeg" width="600"></span>
+					</span>
+				</li>
 				
-				</div>
-				<div style="clear:both;"></div>
-				<br>
-				<br>    
-  		
-  
-  
+				<li><img src="immagini/5.jpeg" width="100"onclick="showPopup('foto5Popup')">
+					<span class="popup" id="foto5Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto5Popup')"><img src="immagini/5.jpeg" width="600"></span>          				
+					</span>
+				</li>
+				
+				<li><img src="immagini/6.jpeg" width="100"onclick="showPopup('foto6Popup')">
+					<span class="popup" id="foto6Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto6Popup')"><img src="immagini/6.jpeg" width="600"></span>          				
+					</span>
+				</li>
+	
+				<li><img src="immagini/7.jpeg" width="100"onclick="showPopup('foto7Popup')">
+					<span class="popup" id="foto7Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto7Popup')"><img src="immagini/7.jpeg" width="600"></span>
+					</span>
+				</li>
+			
+			</ul>
+			<div style="clear:both;"></div>
+			<br>
+			21 maggio 2017
+			<br><br>
+			<ul>
+				<li><img src="immagini/11.jpeg" width="100" onclick="showPopup('foto11Popup')">
+					<span class="popup" id="foto11Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto11Popup')"><img src="immagini/11.jpeg" width="600"></span>          				
+					</span>
+				</li>
+				
+				<li><img src="immagini/12.jpeg" width="100"onclick="showPopup('foto12Popup')">
+					<span class="popup" id="foto12Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto12Popup')"><img src="immagini/12.jpeg" width="600"></span>          				
+					</span>
+				</li>
+				
+				<li><img src="immagini/13.jpeg" width="100"onclick="showPopup('foto13Popup')">
+					<span class="popup" id="foto13Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto13Popup')"><img src="immagini/13.jpeg" width="600"></span>          				
+					</span>
+				</li>
+	
+				<li><img src="immagini/14.jpeg" width="100"onclick="showPopup('foto14Popup')">
+					<span class="popup" id="foto14Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto14Popup')"><img src="immagini/14.jpeg" width="600"></span>
+					</span>
+				</li>
+				
+				<li><img src="immagini/15.jpeg" width="100"onclick="showPopup('foto15Popup')">
+					<span class="popup" id="foto15Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto15Popup')"><img src="immagini/15.jpeg" width="600"></span>          				
+					</span>
+				</li>
+				
+				<li><img src="immagini/16.jpeg" width="100"onclick="showPopup('foto16Popup')">
+					<span class="popup" id="foto16Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto16Popup')"><img src="immagini/16.jpeg" width="600"></span>          				
+					</span>
+				</li>
+	
+				<li><img src="immagini/17.jpeg" width="100"onclick="showPopup('foto17Popup')">
+					<span class="popup" id="foto17Popup" style="visibility:hidden; ">
+						<span class="closePopup" onclick="closePopup('foto17Popup')"><img src="immagini/17.jpeg" width="600"></span>
+					</span>
+				</li>
+			</ul>
+			<div style="clear:both;"></div>
+			<br>
+		</div>
+		
+	
+		<!-- Video 
+		<div id="Video" style="float: left; margin-left:4em;">
+			<center><header><b>Video</b></header>
+			<video width="470" controls>
+				<source src="Video/mePippo.mp4" type="video/mp4">
+			</video>		
+		</div>
+		<div style="clear:both;"></div>
+		<br>
+		<br>-->    
+    
   		<!-- Copyright -->
   		<div id="copyright">
-						 CONTATTI 
-						 <br><br>
-						 
-					<a href="https://www.facebook.com/mariagiulia.gambetti" title="Facebook" target="_blanc"><img src="immagini/FB.png" width="50"></a>
-					<a href="https://www.instagram.com/mariagiulia_gambetti/?hl=it" title="Instagram" target="_blanc"><img src="immagini/Insta.png" width="50"></a>
-					<a href="https://it.pinterest.com/mariagiuliagamb/" title="Pinterest" target="_blanc"><img src="immagini/Pint.png" width="50"></a>
-					<a href="https://github.com/MariaGiuliaGambetti" title="Github" target="_blanc"><img src="immagini/Github.png" width="50"></a> 
+			CONTATTI 
+			<br><br>	 
+			<a href="https://www.facebook.com/mariagiulia.gambetti" title="Facebook" target="_blanc"><img src="immagini/FB.png" width="50"></a>
+			<a href="https://www.instagram.com/mariagiulia_gambetti/?hl=it" title="Instagram" target="_blanc"><img src="immagini/Insta.png" width="50"></a>
+			<a href="https://it.pinterest.com/mariagiuliagamb/" title="Pinterest" target="_blanc"><img src="immagini/Pint.png" width="50"></a>
+			<a href="https://github.com/MariaGiuliaGambetti" title="Github" target="_blanc"><img src="immagini/Github.png" width="50"></a> 
   		</div>
   
   </div>
