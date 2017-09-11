@@ -1,16 +1,64 @@
-#corpo-centrale{
-		
-		width: 1300;
-		height: auto;
-		margin:auto;
+h1{
 		color: black;
 		font-family:Courier;
 	}
 	
-	h1{
+#corpo-sinistro{
+		
+		width: 950;
+		height: auto;
 		color: black;
+		font-family:Courier;
+		position: left;
+		float:left;
+		margin-left: 1.3em;
 	}
-	 
+	
+	#MiaFoto{
+			 width: 200;
+			 float: left;
+			 margin-right:1.5em;
+	}
+	.cont {
+			perspective: 1000px;
+			-webkit-perspective: 1000px;
+		}
+		.cont, .f, .r {
+			width: 200px;
+			height: 200px;
+			
+		}
+		.b{
+			transition: all 0.5s ease-in-out;
+			transform-style: preserve-3d;
+			-webkit-transform-style: preserve-3d;
+			position: center;
+		}
+		.f, .r {
+			backface-visibility: hidden;
+			-webkit-backface-visibility: hidden;
+			position: absolute;
+		}
+		
+		.r {
+			background-color: #cccccc;
+		}
+		.r h3 {
+			font-family: Courier;
+			font-size: 1.5em;
+			text-align:center;
+		}
+		
+		.cont:hover .b {
+		transform: rotateY(180deg);
+		}
+		.cont .f {
+		transform: rotateY(0deg);
+		}
+		.cont .r {
+		transform: rotateY(180deg);
+		}
+
 	#Menu{
 		top: 0em;
 	}
@@ -43,18 +91,18 @@
 		padding: 0.1em 1em;
 		border-radius: 15px;
 		border: 1px solid black;
-		width: 550px;
+		width: 360px;
 	}
 
 	#studi{
 		padding: 0.1em 1em;
 		border-radius: 15px;
 		border: 1px solid black;
-		width: 550px;
+		width: 360px;
 	}
 	
 	#Box{
-		width: 1250px;
+		width: 1100px;
 		align: center;
 		margin-left: 2em;
 	}
@@ -62,11 +110,11 @@
 			perspective: 1000px;
 			-webkit-perspective: 1000px;
 			float:left;
-			margin: 1em;
+			margin: 0.5em;
 		}
 		.contenitore, .fronte, .retro {
-			width: 280px;
-			height: 200px;
+			width: 430px;
+			height: 150px;
 			
 		}
 		.box{
@@ -93,23 +141,23 @@
 			font-family: Courier;
 			font-size: 1.5em;
 			text-align:center;
-			margin-top: 70px;
+			margin-top: 55px;
 		}
 		.retro h3 {
 			font-family: Courier;
 			font-size: 1.5em;
 			text-align:center;
-			margin-top: 70px;
+			margin-top: 55px;
 		}
 		
 		.contenitore:hover .box {
-		transform: rotateY(540deg);
+		transform: rotateY(180deg);
 		}
 		.contenitore .fronte {
 		transform: rotateY(0deg);
 		}
 		.contenitore .retro {
-		transform: rotateY(540deg);
+		transform: rotateY(180deg);
 		}
 
 	#Gallery 
@@ -158,6 +206,13 @@
 		font-size: 20px;
 		letter-spacing: 1px;
 	}
+	
+	#Img{
+		margin-left: 1.5em;
+		width: 300px;
+		float: left;
+	}
+		
 						
 	#copyright
 	{
