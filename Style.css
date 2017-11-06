@@ -5,6 +5,7 @@ body
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Raleway', sans-serif;
 }
 #mainPart
 {
@@ -72,7 +73,7 @@ body
 #slide2
 {
     background-color:#ffffff;
-    height: 200;
+    height: 700;
     text-align: center;
 }
 
@@ -104,22 +105,16 @@ z-index: 0;
 #Titolo
 {
 	width: 1500;
-}
-
-#Titolo h1
-{
-	color: #fffdfd;
-	position: relative;
+	position: absolute;
 	text-align: center;
 }
-
 
 #box
 {
 	width: 1500;
 	height: auto;
-	margin-left: 170px
-	
+	margin-left: 170px;
+	margin-top: 300px;
 }
 
 #Box1,
@@ -188,13 +183,45 @@ z-index: 0;
 	background-position: center;
 }
 
-#boox
+#blog
 {
-	width:1500;
+	width:1400;
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
 	margin-left: 50px;
 	font-size: 20;
+	text-align: left;
+}
+#ps
+{
+	float: left;
+	width: 880;
+	margin-right: 40;
+}
+
+#ps1
+{
+	font-size: 20;
+	padding: 0 40 0 0;
+	text-align: justify;
+}
+
+#pd
+{
+	float: left;
+	width: 470;
+}
+
+#pd1,
+#pd2
+{
+	font-size: 15;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5 10 5 10;
+	text-align: justify;
+	width: 450;
+
 }
 
 
