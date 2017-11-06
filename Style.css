@@ -6,13 +6,11 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Raleway', sans-serif;
-}
-#mainPart
-{
-	width: 1500;
-	height: auto;
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
 	text-align: center;
-	margin: auto;
+	position: relative;
 }
 .topNav
 {
@@ -21,7 +19,7 @@ body
 	height: 55px;
 	background-color:#ffffff;
 	z-index: 3;
-	width: 1500;
+	width: 100%
 }
 .topNav li
 {
@@ -58,8 +56,9 @@ body
 
 #mainpart
 {
-	width: 1500;
+	width: 100%;
 	text-align: center;
+	position: relative;	
 }
 
 #slide1
@@ -67,30 +66,33 @@ body
 	background-color:#ffffff;
     height: 750;
     text-align: left;
-    width: 100%
+    width: 1500;
 }
 
 #slide2
 {
     background-color:#ffffff;
-    height: 700;
+    height: auto;
     text-align: center;
+    width: 100%;
+    margin: 0;
 }
 
 #slide3
 {
     height: 360;
     background-image:url('immagini/sfondo07.jpg');
-    background-color:#fff;
     background-repeat: repeat;
     background-size: contain;
     background-attachment: fixed;
+    width: 100%;
 }
 
 #slide4
 {
     background-color:#ffffff;
     height: auto;
+    width: 100%;
 }
 
 video#bgvid { 
@@ -135,13 +137,7 @@ z-index: 0;
 	
 }
 	
-#Box1
-{		
-	background-image: url('immagini/b_viaggi.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
+
 
 #Box1 a,
 #Box2 a,
@@ -157,6 +153,14 @@ z-index: 0;
 	color: white;
 	text-decoration: none;
 	display: block;
+}
+
+#Box1
+{		
+	background-image: url('immagini/b_viaggi.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 #Box2
@@ -185,18 +189,19 @@ z-index: 0;
 
 #blog
 {
-	width:1400;
 	font-family: 'Raleway', sans-serif;
 	text-align: left;
 	margin-left: 50px;
+	margin-right: 50px;
 	font-size: 20;
 	text-align: left;
+	width: 1450;
 }
 #ps
 {
 	float: left;
-	width: 880;
-	margin-right: 40;
+	width: 66%;
+	margin-right: 20;
 }
 
 #ps1
@@ -209,7 +214,7 @@ z-index: 0;
 #pd
 {
 	float: left;
-	width: 470;
+	width: 32%;
 }
 
 #pd1,
@@ -220,7 +225,6 @@ z-index: 0;
 	border-radius: 5px;
 	padding: 5 10 5 10;
 	text-align: justify;
-	width: 450;
 
 }
 
