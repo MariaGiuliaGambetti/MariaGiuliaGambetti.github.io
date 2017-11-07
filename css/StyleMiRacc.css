@@ -1,0 +1,147 @@
+body
+{
+	background: #ffffff;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+	position: relative;
+}
+.topNav
+{
+	position: fixed;
+	top: 0;
+	height: 55px;
+	background-color:#ffffff;
+	z-index: 3;
+	width: 100%
+}
+.topNav li
+{
+  	font-size: 20;
+    float: left;
+    display: block;
+    padding: 0.2em 0.2em;
+    font-family: 'Raleway', sans-serif;
+    background-color: #ffffff;
+}
+
+.topNav li.active a
+{
+	background: #666666;
+    padding: 0.4em 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.topNav a
+{
+	letter-spacing: 0.04em;
+	text-decoration: none;
+	color: black;
+    padding: 0.4em 0.5em;	
+}
+
+.topNav	a:hover
+{
+	background: #666666;
+    padding: 0.4em 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+.slide
+{	
+    position: relative;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#mainpart
+{
+	width: 100%;
+	text-align: center;
+	position: relative;	
+}
+
+#slide1
+{
+	height: 560;
+	background-image:url('../immagini/Comunione_01.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+#slide2
+{
+    background-color:#ffffff;
+    height: auto;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+}
+#slide3
+{
+	height: 380;
+	background-image:url('../immagini/Comunione_01.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#slide4
+{
+    background-color:#ffffff;
+    height: auto;
+    width: 100%;
+}
+
+#box
+{
+	height: auto;
+	margin-left: 40px;
+	margin-top: 80px;
+}
+
+#Box1
+{		
+	width: 420;
+	height: 320;
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #ffffff;
+	opacity: 0.8;
+	font-family: 'Raleway', sans-serif;
+	margin: 10px;
+	position: relative;
+	text-align: justify;
+	font-size: 14;
+	padding: 0 10 0 10;
+}
+
+
+#copyright
+	{
+		padding: 1.5em 0em;
+		font-family: 'Raleway', sans-serif;
+		position: relative;
+		text-align: center;
+	}
+		#copyright a
+		{
+			color: white;
+		}
+						
+		#copyright img:hover
+		{
+		 background-color:#999dae;
+		 border-radius: 25px;
+		}
