@@ -217,12 +217,14 @@ z-index: 0;
 	color: black;
 }
 
-#altro
-{
-	font-size: 20;
-	padding: 0 40 0 0;
-	text-align: justify;
+.showbutton[value="Nascondi"] + .nascondi {
+    padding: 4px;
 }
+.nascondi {
+    overflow: hidden;
+}
+
+
 
 #ps2
 {
